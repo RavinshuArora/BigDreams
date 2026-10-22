@@ -155,67 +155,113 @@
         </div>
 
         <!-- Form Card -->
-        <div class="contact-card" id="enquiry">
-  <p class="eyebrow">Start with a conversation</p>
-  <h3>Request an initial consultation</h3>
-  <p>Tell us a little about your situation. We’ll review your enquiry and contact you about the next step.</p>
+       <section class="section">
+  <div class="container intro-grid">
+    <div>
+      <p class="eyebrow">Employer sponsorship</p>
+      <h2>Work in Australia under the sponsorship of an approved employer, using your skills</h2>
+      <p>Subclass 482 (Skills in Demand) is an employer-sponsored temporary work visa that allows an approved Australian employer to sponsor a skilled worker from overseas to fill a workforce shortage. When your occupation, qualifications and experience meet Australian standards, it can be an important starting point both for working in Australia and, where the conditions are met, for transitioning to permanent residence.</p>
 
-  <form id="whatsapp-consultation-form">
-    <div class="form-grid">
-      <div class="field">
-        <label for="fname">Full name *</label>
-        <input id="fname" required placeholder="Your name">
-      </div>
-      <div class="field">
-        <label for="email">Email address *</label>
-        <input id="email" type="email" required placeholder="you@example.com">
-      </div>
-      <div class="field full">
-        <label for="phone">Phone / WhatsApp *</label>
-        <input id="phone" required placeholder="Include country code">
-      </div>
-      <div class="field full">
-        <label for="help">How can we help?</label>
-        <select id="help">
-          <option value="">Select an option</option>
-          <option value="Employer sponsorship / Subclass 482">Employer sponsorship / Subclass 482</option>
-          <option value="Skills assessment">Skills assessment</option>
-          <option value="Permanent residency options">Permanent residency options</option>
-          <option value="Not sure yet">Not sure yet</option>
-        </select>
-      </div>
-      <div class="field full">
-        <label for="details">Occupation and situation</label>
-        <textarea id="details" placeholder="Your occupation, experience, current location and questions"></textarea>
+      <ul class="ticks-list">
+        <li>Requires the sponsorship of an approved employer and nomination for a specific occupation.</li>
+        <li>Employer-sponsored temporary work that can lead to permanent residence where the conditions are met.</li>
+        <li>Get guidance on documents, eligibility and application preparation.</li>
+        <li>Your family members can also live, work and study in Australia.</li>
+      </ul>
+
+      <p><strong style="color:var(--ink, #172336)">Need a clearer direction?</strong> Share a few details and our team can help you understand what to explore next.</p>
+
+      <!-- Contact Details -->
+      <div class="bd-contact-details">
+        <div class="bd-contact-item">
+          <span class="bd-contact-icon">✓</span>
+          <span>MARN 2619304 · Registered with OMARA</span>
+        </div>
+        <a href="tel:+61476241532" class="bd-contact-item">
+          <span class="bd-contact-icon">☎</span>
+          <span>+61 476 241 532</span>
+        </a>
+        <a href="https://wa.me/61476241532" target="_blank" rel="noopener noreferrer" class="bd-contact-item">
+          <span class="bd-contact-icon">✆</span>
+          <span>+61 476 241 532</span>
+        </a>
+        <a href="https://www.google.com/maps/search/?api=1&query=2/3+Lawrence+Avenue+West+Perth+WA+6005" target="_blank" rel="noopener noreferrer" class="bd-contact-item">
+          <span class="bd-contact-icon">⌖</span>
+          <span>Unit 2/3 Lawrence Ave, West Perth WA 6005, Australia</span>
+        </a>
       </div>
     </div>
 
-    <button class="btn" type="submit" style="width: 100%; margin-top: 15px;">Request a 15-Minute Call</button>
-    <p class="fine" id="form-message">Your information is used only to respond to this enquiry. Immigration assistance is provided by a Registered Migration Agent (MARN 2619304). Submitting this form does not create a client relationship and does not guarantee any visa outcome.</p>
-  </form>
-</div>
+    <!-- Contact Form Card -->
+    <div class="contact-card" id="enquiry">
+      <p class="eyebrow">Start with a conversation</p>
+      <h3>Request an initial consultation</h3>
+      <p>Tell us a little about your situation. We’ll review your enquiry and contact you about the next step.</p>
 
+      <form id="whatsapp-consultation-form">
+        <div class="form-grid">
+          <div class="field">
+            <label for="fname">Full name *</label>
+            <input id="fname" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Email address *</label>
+            <input id="email" type="email" required placeholder="you@example.com">
+          </div>
+          <div class="field full">
+            <label for="phone">Phone / WhatsApp *</label>
+            <input id="phone" required placeholder="Include country code">
+          </div>
+          <div class="field full">
+            <label for="help">How can we help?</label>
+            <select id="help">
+              <option value="">Select an option</option>
+              <option value="Employer sponsorship / Subclass 482">Employer sponsorship / Subclass 482</option>
+              <option value="Skills assessment">Skills assessment</option>
+              <option value="Permanent residency options">Permanent residency options</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="details">Occupation and situation</label>
+            <textarea id="details" placeholder="Your occupation, experience, current location and questions"></textarea>
+          </div>
+        </div>
+
+        <button class="btn" type="submit" style="width: 100%; margin-top: 15px;">Request a 15-Minute Call</button>
+        <p class="fine" id="form-message">Your information is used only to respond to this enquiry. Immigration assistance is provided by a Registered Migration Agent (MARN 2619304). Submitting this form does not create a client relationship and does not guarantee any visa outcome.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Script Outside Section To Protect Layout -->
 <script>
-  document.getElementById('whatsapp-consultation-form').addEventListener('submit', function(event) {
-    event.preventDefault();
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('whatsapp-consultation-form');
+    if (form) {
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
 
-    const fullName = document.getElementById('fname').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const phone = document.getElementById('phone').value.trim();
-    const helpOption = document.getElementById('help').value || 'Not specified';
-    const occupationDetails = document.getElementById('details').value.trim() || 'N/A';
+        const fullName = document.getElementById('fname').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const helpOption = document.getElementById('help').value || 'Not specified';
+        const occupationDetails = document.getElementById('details').value.trim() || 'N/A';
 
-    const message = `*New Consultation Enquiry - Big Dream Visa*%0A%0A` +
-      `*Full Name:* ${encodeURIComponent(fullName)}%0A` +
-      `*Email:* ${encodeURIComponent(email)}%0A` +
-      `*Phone/WhatsApp:* ${encodeURIComponent(phone)}%0A` +
-      `*Service Required:* ${encodeURIComponent(helpOption)}%0A` +
-      `*Details:* ${encodeURIComponent(occupationDetails)}`;
+        const message = `*New Consultation Enquiry - Big Dream Visa*%0A%0A` +
+          `*Full Name:* ${encodeURIComponent(fullName)}%0A` +
+          `*Email:* ${encodeURIComponent(email)}%0A` +
+          `*Phone/WhatsApp:* ${encodeURIComponent(phone)}%0A` +
+          `*Service Required:* ${encodeURIComponent(helpOption)}%0A` +
+          `*Details:* ${encodeURIComponent(occupationDetails)}`;
 
-    const whatsappNumber = "61476241532";
-    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
-    
-    window.open(whatsappURL, '_blank');
+        const whatsappNumber = "61476241532";
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
+        
+        window.open(whatsappURL, '_blank');
+      });
+    }
   });
 </script>
 
