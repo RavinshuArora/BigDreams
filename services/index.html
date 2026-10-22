@@ -193,77 +193,47 @@
     </div>
 
     <!-- Contact Form Card -->
-    <div class="contact-card" id="enquiry">
-      <p class="eyebrow">Start with a conversation</p>
-      <h3>Request an initial consultation</h3>
-      <p>Tell us a little about your situation. We’ll review your enquiry and contact you about the next step.</p>
+   <div class="contact-card" id="enquiry">
+          <p class="eyebrow">Start with a conversation</p>
+          <h3>Request an initial consultation</h3>
+          <p>Tell us a little about your situation. We’ll review your enquiry and contact you about the next step.</p>
 
-      <form id="whatsapp-consultation-form">
-        <div class="form-grid">
-          <div class="field">
-            <label for="fname">Full name *</label>
-            <input id="fname" required placeholder="Your name">
-          </div>
-          <div class="field">
-            <label for="email">Email address *</label>
-            <input id="email" type="email" required placeholder="you@example.com">
-          </div>
-          <div class="field full">
-            <label for="phone">Phone / WhatsApp *</label>
-            <input id="phone" required placeholder="Include country code">
-          </div>
-          <div class="field full">
-            <label for="help">How can we help?</label>
-            <select id="help">
-              <option value="">Select an option</option>
-              <option value="Employer sponsorship / Subclass 482">Employer sponsorship / Subclass 482</option>
-              <option value="Skills assessment">Skills assessment</option>
-              <option value="Permanent residency options">Permanent residency options</option>
-              <option value="Not sure yet">Not sure yet</option>
-            </select>
-          </div>
-          <div class="field full">
-            <label for="details">Occupation and situation</label>
-            <textarea id="details" placeholder="Your occupation, experience, current location and questions"></textarea>
-          </div>
+          <form onsubmit="event.preventDefault();document.getElementById('form-message').textContent='Preview only: connect this form to your website enquiry system before publishing.'">
+            <div class="form-grid">
+              <div class="field">
+                <label for="fname">Full name *</label>
+                <input id="fname" required placeholder="Your name">
+              </div>
+              <div class="field">
+                <label for="email">Email address *</label>
+                <input id="email" type="email" required placeholder="you@example.com">
+              </div>
+              <div class="field full">
+                <label for="phone">Phone / WhatsApp *</label>
+                <input id="phone" required placeholder="Include country code">
+              </div>
+              <div class="field full">
+                <label for="help">How can we help?</label>
+                <select id="help">
+                  <option value="">Select an option</option>
+                  <option>Employer sponsorship / Subclass 482</option>
+                  <option>Skills assessment</option>
+                  <option>Permanent residency options</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="details">Occupation and situation</label>
+                <textarea id="details" placeholder="Your occupation, experience, current location and questions"></textarea>
+              </div>
+            </div>
+
+            <button class="btn" type="submit" style="width: 100%; margin-top: 15px;">Request a 15-Minute Call</button>
+            <p class="fine" id="form-message">Your information is used only to respond to this enquiry. Immigration assistance is provided by a Registered Migration Agent (MARN 2619304). Submitting this form does not create a client relationship and does not guarantee any visa outcome.</p>
+          </form>
         </div>
-
-        <button class="btn" type="submit" style="width: 100%; margin-top: 15px;">Request a 15-Minute Call</button>
-        <p class="fine" id="form-message">Your information is used only to respond to this enquiry. Immigration assistance is provided by a Registered Migration Agent (MARN 2619304). Submitting this form does not create a client relationship and does not guarantee any visa outcome.</p>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- Script Outside Section To Protect Layout -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('whatsapp-consultation-form');
-    if (form) {
-      form.addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        const fullName = document.getElementById('fname').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const phone = document.getElementById('phone').value.trim();
-        const helpOption = document.getElementById('help').value || 'Not specified';
-        const occupationDetails = document.getElementById('details').value.trim() || 'N/A';
-
-        const message = `*New Consultation Enquiry - Big Dream Visa*%0A%0A` +
-          `*Full Name:* ${encodeURIComponent(fullName)}%0A` +
-          `*Email:* ${encodeURIComponent(email)}%0A` +
-          `*Phone/WhatsApp:* ${encodeURIComponent(phone)}%0A` +
-          `*Service Required:* ${encodeURIComponent(helpOption)}%0A` +
-          `*Details:* ${encodeURIComponent(occupationDetails)}`;
-
-        const whatsappNumber = "61476241532";
-        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
-        
-        window.open(whatsappURL, '_blank');
-      });
-    }
-  });
-</script>
+      </div>
+    </section>
 
     <!-- Dark Overview Panel -->
     <section class="section" style="padding-top:0">
