@@ -92,12 +92,14 @@
         </div>
 
         
+
 <div class="video-wrapper">
   <video
     class="hero-video"
     controls
     playsinline
     preload="metadata"
+    controlslist="nodownload"
     aria-label="Meet your migration team"
   >
     <source
@@ -112,23 +114,32 @@
   .video-wrapper {
     width: 100%;
     max-width: 340px;
+    height: auto;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
     border-radius: 12px;
+    background: #000;
   }
 
   .hero-video {
     display: block;
     width: 100%;
     height: auto;
+    max-height: 70vh;
     aspect-ratio: 9 / 16;
     object-fit: contain;
+    object-position: center;
     border-radius: 12px;
+    background: #000;
   }
 
   @media (max-width: 768px) {
     .video-wrapper {
-      max-width: 280px;
+      max-width: min(100%, 300px);
+    }
+
+    .hero-video {
+      max-height: 65vh;
     }
   }
 </style>
