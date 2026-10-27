@@ -91,24 +91,6 @@
           <a class="btn btn-gold" href="#enquiry">Request a consultation ↗</a>
         </div>
 
-        
-
-<div class="video-wrapper">
-  <video
-    class="hero-video"
-    controls
-    playsinline
-    preload="metadata"
-    controlslist="nodownload"
-    aria-label="Meet your migration team"
-  >
-    <source
-      src="/services/videos/bigdream_video_under25mb.mp4"
-      type="video/mp4"
-    />
-    Your browser does not support HTML5 video.
-  </video>
-</div>
 
 <style>
   .video-wrapper {
@@ -116,33 +98,59 @@
     max-width: 340px;
     height: auto;
     margin: 0 auto;
-    overflow: visible;
+    position: relative;
+    overflow: hidden;
     border-radius: 12px;
-    background: #000;
+    background: #10283f;
   }
 
   .hero-video {
     display: block;
     width: 100%;
     height: auto;
-    max-height: 70vh;
     aspect-ratio: 9 / 16;
     object-fit: contain;
     object-position: center;
     border-radius: 12px;
-    background: #000;
+    background: #10283f;
   }
 
   @media (max-width: 768px) {
     .video-wrapper {
-      max-width: min(100%, 300px);
+      width: 100%;
+      max-width: 260px;
+      margin: 0 auto 24px;
     }
 
     .hero-video {
-      max-height: 65vh;
+      width: 100%;
+      height: auto;
+      max-height: 55vh;
+      aspect-ratio: 9 / 16;
+      object-fit: contain;
+    }
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    @media (max-width: 768px) {
+      .video-wrapper {
+        width: 100%;
+        max-width: 260px;
+        height: auto;
+        overflow: hidden;
+      }
+
+      .hero-video {
+        width: 100%;
+        height: auto;
+        max-height: 55vh;
+        aspect-ratio: 9 / 16;
+        object-fit: contain;
+      }
     }
   }
 </style>
+
 
       </div>
     </section>
