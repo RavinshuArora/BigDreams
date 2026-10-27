@@ -92,14 +92,20 @@
         </div>
 
 
+
 <!-- Big Dream Visa Responsive Video Player -->
 <div class="video-wrapper">
   <video
     class="hero-video"
-    controls
+    autoplay
+    muted
+    loop
     playsinline
     webkit-playsinline
-    preload="metadata"
+    controls
+    preload="auto"
+    width="1080"
+    height="1920"
     aria-label="Meet your migration team"
   >
     <source
@@ -111,7 +117,6 @@
 </div>
 
 <style>
-  /* Video container */
   .video-wrapper {
     position: relative;
     width: 100%;
@@ -121,17 +126,14 @@
     height: auto;
     overflow: visible;
     border-radius: 12px;
-    background: transparent;
     box-sizing: border-box;
   }
 
-  /* Keep the complete video visible */
   .hero-video {
     display: block;
     width: 100%;
-    height: auto !important;
-    max-height: none;
-    aspect-ratio: auto;
+    height: auto;
+    aspect-ratio: 9 / 16;
     object-fit: contain;
     object-position: center;
     border: 0;
@@ -140,72 +142,23 @@
     box-sizing: border-box;
   }
 
-  /* Mobile devices */
   @media screen and (max-width: 768px) {
     .video-wrapper {
       width: 100%;
       max-width: 280px;
       height: auto;
       margin: 0 auto 24px;
-      overflow: visible;
     }
 
     .hero-video {
       width: 100%;
-      height: auto !important;
-      max-height: none;
-      aspect-ratio: auto;
+      height: auto;
+      aspect-ratio: 9 / 16;
       object-fit: contain;
-      object-position: center;
     }
   }
-
-  /* iOS Safari */
-  @supports (-webkit-touch-callout: none) {
-    @media screen and (max-width: 768px) {
-      .video-wrapper {
-        width: 100%;
-        max-width: 280px;
-        height: auto;
-        overflow: visible;
-      }
-
-      .hero-video {
-        width: 100%;
-        height: auto !important;
-        max-height: none;
-        aspect-ratio: auto;
-        object-fit: contain;
-      }
-    }
-  }
-
-  
-/* iPhone Safari: fix video sizing only */
-@supports (-webkit-touch-callout: none) {
-  @media screen and (max-width: 768px) {
-    .video-wrapper {
-      width: 100% !important;
-      max-width: 220px !important;
-      height: auto !important;
-      margin: 0 auto 24px !important;
-      overflow: hidden !important;
-      position: relative !important;
-    }
-
-    .hero-video {
-      display: block !important;
-      width: 100% !important;
-      height: auto !important;
-      max-height: none !important;
-      aspect-ratio: auto !important;
-      object-fit: contain !important;
-      position: relative !important;
-    }
-  }
-}
-
 </style>
+
       </div>
     </section>
 
