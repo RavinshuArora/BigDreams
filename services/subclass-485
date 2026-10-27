@@ -1,0 +1,1395 @@
+
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Subclass 485 Temporary Graduate Visa | Big Dream Education & Visa Services</title>
+  <meta name="description" content="Learn about Australia's Temporary Graduate visa (subclass 485), its streams, eligibility requirements and application process. Contact Big Dream Education & Visa Services for guidance.">
+  <link rel="canonical" href="https://www.bigdreamvisa.com.au/services/subclass-485.html">
+
+  <meta property="og:title" content="Subclass 485 Temporary Graduate Visa">
+  <meta property="og:description" content="Explore Australia's Temporary Graduate visa and understand the key eligibility requirements.">
+  <meta property="og:url" content="https://www.bigdreamvisa.com.au/services/subclass-485.html">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="/styles.css">
+
+  <style>
+    :root {
+      --bd-navy: #102d50;
+      --bd-blue: #1a365d;
+      --bd-gold: #d4a253;
+      --bd-gold-dark: #b8893e;
+      --bd-light: #f5f7fa;
+      --bd-text: #26364a;
+      --bd-muted: #64748b;
+      --bd-white: #ffffff;
+      --bd-border: #e3e9f0;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      margin: 0;
+      color: var(--bd-text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      background: #fff;
+    }
+
+    body, input, select, textarea, button {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .g-page a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .g-page img,
+    .g-page video {
+      max-width: 100%;
+    }
+
+    .g-container {
+      width: min(1160px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .g-section {
+      padding: 84px 0;
+    }
+
+    .g-section-light {
+      background: var(--bd-light);
+    }
+
+    .g-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 17px;
+      color: var(--bd-gold-dark);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .g-eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: var(--bd-gold);
+    }
+
+    .g-heading {
+      max-width: 780px;
+      margin: 0 auto 18px;
+      color: var(--bd-navy);
+      font-size: clamp(29px, 4vw, 43px);
+      font-weight: 750;
+      line-height: 1.2;
+      letter-spacing: -1px;
+    }
+
+    .g-description {
+      max-width: 720px;
+      margin: 0 auto;
+      color: var(--bd-muted);
+      font-size: 16px;
+    }
+
+    .g-center { text-align: center; }
+
+    .g-button {
+      display: inline-flex;
+      min-height: 49px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 22px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      background: var(--bd-gold);
+      color: var(--bd-navy) !important;
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .25s ease, background .25s ease;
+    }
+
+    .g-button:hover {
+      background: #e5b96e;
+      transform: translateY(-2px);
+    }
+
+    .g-button-outline {
+      border-color: rgba(255,255,255,.6);
+      background: transparent;
+      color: #fff !important;
+    }
+
+    .g-button-outline:hover {
+      background: rgba(255,255,255,.12);
+    }
+
+    /* Header */
+    .g-header {
+      position: relative;
+      z-index: 20;
+      background: #fff;
+      border-bottom: 1px solid var(--bd-border);
+    }
+
+    .g-nav {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .g-brand {
+      color: var(--bd-navy) !important;
+      font-size: 19px;
+      font-weight: 900;
+      line-height: 1.2;
+      letter-spacing: .2px;
+    }
+
+    .g-brand span {
+      display: block;
+      margin-top: 5px;
+      color: var(--bd-gold-dark);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .g-navlinks {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .g-navlinks > a:not(.g-button):hover {
+      color: var(--bd-gold-dark);
+    }
+
+    .g-menu-toggle {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--bd-border);
+      border-radius: 5px;
+      background: #fff;
+      color: var(--bd-navy);
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Hero */
+    .g-hero {
+      position: relative;
+      display: flex;
+      min-height: 590px;
+      align-items: center;
+      overflow: hidden;
+      background: var(--bd-navy);
+      color: #fff;
+    }
+
+    .g-hero-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .36;
+    }
+
+    .g-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(9,29,52,.97) 0%,
+        rgba(16,45,80,.88) 54%, rgba(16,45,80,.44) 100%),
+        linear-gradient(0deg, rgba(9,29,52,.5), transparent);
+    }
+
+    .g-hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding: 85px 0;
+      animation: g-rise .8s ease both;
+    }
+
+    .g-breadcrumb {
+      margin-bottom: 27px;
+      color: rgba(255,255,255,.75);
+      font-size: 12px;
+    }
+
+    .g-breadcrumb a:hover { color: var(--bd-gold); }
+
+    .g-hero h1 {
+      max-width: 780px;
+      margin: 0 0 24px;
+      color: #fff;
+      font-size: clamp(39px, 6vw, 66px);
+      line-height: 1.08;
+      letter-spacing: -1.8px;
+    }
+
+    .g-hero h1 span { color: var(--bd-gold); }
+
+    .g-hero p {
+      max-width: 660px;
+      margin: 0 0 30px;
+      color: rgba(255,255,255,.88);
+      font-size: 17px;
+    }
+
+    .g-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+    }
+
+    .g-hero-note {
+      margin-top: 24px;
+      color: rgba(255,255,255,.68);
+      font-size: 12px;
+    }
+
+    /* Highlights */
+    .g-highlights {
+      position: relative;
+      z-index: 3;
+      margin-top: -36px;
+    }
+
+    .g-highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid var(--bd-border);
+      border-radius: 9px;
+      background: #fff;
+      box-shadow: 0 15px 45px rgba(16,45,80,.08);
+    }
+
+    .g-highlight {
+      padding: 27px;
+      text-align: center;
+    }
+
+    .g-highlight + .g-highlight {
+      border-left: 1px solid var(--bd-border);
+    }
+
+    .g-highlight strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--bd-navy);
+      font-size: 17px;
+    }
+
+    .g-highlight span {
+      color: var(--bd-muted);
+      font-size: 12px;
+    }
+
+    /* Intro */
+    .g-two-col {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .g-copy h2 {
+      margin: 0 0 20px;
+      color: var(--bd-navy);
+      font-size: clamp(29px, 3.6vw, 42px);
+      line-height: 1.2;
+    }
+
+    .g-copy p { color: var(--bd-muted); }
+
+    .g-check-list {
+      display: grid;
+      gap: 13px;
+      margin: 25px 0 30px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .g-check-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .g-check {
+      display: inline-flex;
+      width: 23px;
+      height: 23px;
+      flex: 0 0 23px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+      border-radius: 50%;
+      background: #f9edda;
+      color: var(--bd-gold-dark);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .g-side-card {
+      position: relative;
+      padding: 35px;
+      overflow: hidden;
+      border: 1px solid var(--bd-border);
+      border-radius: 9px;
+      background: #fff;
+      box-shadow: 0 18px 45px rgba(16,45,80,.07);
+    }
+
+    .g-side-card::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+      background: var(--bd-gold);
+      content: "";
+    }
+
+    .g-side-card h3 {
+      margin: 0 0 14px;
+      color: var(--bd-navy);
+      font-size: 24px;
+    }
+
+    .g-side-card p {
+      color: var(--bd-muted);
+      font-size: 14px;
+    }
+
+    .g-side-card a {
+      color: var(--bd-gold-dark);
+      font-weight: 800;
+    }
+
+    /* Stream cards */
+    .g-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 44px;
+    }
+
+    .g-card {
+      position: relative;
+      padding: 30px;
+      border: 1px solid var(--bd-border);
+      border-radius: 8px;
+      background: #fff;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .g-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 18px 38px rgba(16,45,80,.09);
+    }
+
+    .g-card-number {
+      display: inline-flex;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      background: #f9edda;
+      color: var(--bd-gold-dark);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .g-card h3 {
+      margin: 0 0 12px;
+      color: var(--bd-navy);
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    .g-card p {
+      margin: 0 0 17px;
+      color: var(--bd-muted);
+      font-size: 14px;
+    }
+
+    .g-card small {
+      display: block;
+      padding-top: 15px;
+      border-top: 1px solid var(--bd-border);
+      color: var(--bd-navy);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    /* Eligibility */
+    .g-eligibility {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 17px;
+      margin-top: 38px;
+    }
+
+    .g-eligibility-item {
+      display: flex;
+      gap: 15px;
+      padding: 22px;
+      border: 1px solid var(--bd-border);
+      border-radius: 7px;
+      background: #fff;
+    }
+
+    .g-eligibility-item h3 {
+      margin: 0 0 6px;
+      color: var(--bd-navy);
+      font-size: 16px;
+    }
+
+    .g-eligibility-item p {
+      margin: 0;
+      color: var(--bd-muted);
+      font-size: 13px;
+    }
+
+    /* Process */
+    .g-process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 45px;
+    }
+
+    .g-process-item {
+      padding-top: 22px;
+      border-top: 2px solid var(--bd-gold);
+    }
+
+    .g-process-item span {
+      color: var(--bd-gold-dark);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .g-process-item h3 {
+      margin: 10px 0;
+      color: var(--bd-navy);
+      font-size: 18px;
+    }
+
+    .g-process-item p {
+      margin: 0;
+      color: var(--bd-muted);
+      font-size: 13px;
+    }
+
+    /* CTA */
+    .g-cta {
+      position: relative;
+      overflow: hidden;
+      padding: 65px 30px;
+      border-radius: 10px;
+      background: var(--bd-navy);
+      text-align: center;
+      color: #fff;
+    }
+
+    .g-cta::after {
+      position: absolute;
+      top: -110px;
+      right: -80px;
+      width: 300px;
+      height: 300px;
+      border: 1px solid rgba(212,162,83,.35);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .g-cta h2 {
+      position: relative;
+      z-index: 1;
+      max-width: 720px;
+      margin: 0 auto 17px;
+      color: #fff;
+      font-size: clamp(28px, 4vw, 40px);
+      line-height: 1.2;
+    }
+
+    .g-cta p {
+      position: relative;
+      z-index: 1;
+      max-width: 620px;
+      margin: 0 auto 25px;
+      color: rgba(255,255,255,.8);
+    }
+
+    .g-cta .g-button { position: relative; z-index: 1; }
+
+    /* FAQs */
+    .g-faq-list {
+      max-width: 850px;
+      margin: 40px auto 0;
+    }
+
+    .g-faq-list details {
+      margin-bottom: 12px;
+      padding: 19px 22px;
+      border: 1px solid var(--bd-border);
+      border-radius: 7px;
+      background: #fff;
+    }
+
+    .g-faq-list summary {
+      position: relative;
+      padding-right: 25px;
+      color: var(--bd-navy);
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .g-faq-list summary::-webkit-details-marker { display: none; }
+
+    .g-faq-list summary::after {
+      position: absolute;
+      right: 0;
+      color: var(--bd-gold-dark);
+      content: "+";
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .g-faq-list details[open] summary::after { content: "−"; }
+
+    .g-faq-list details p {
+      margin: 14px 0 0;
+      color: var(--bd-muted);
+      font-size: 14px;
+    }
+
+    .g-disclaimer {
+      margin-top: 35px;
+      padding: 18px 20px;
+      border-left: 3px solid var(--bd-gold);
+      background: #fff;
+      color: var(--bd-muted);
+      font-size: 12px;
+    }
+
+    /* Consultation form */
+    .g-form-layout {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 45px;
+      align-items: start;
+    }
+
+    .g-form-intro h2 {
+      margin: 0 0 17px;
+      color: var(--bd-navy);
+      font-size: clamp(29px, 4vw, 40px);
+      line-height: 1.2;
+    }
+
+    .g-form-intro p { color: var(--bd-muted); }
+
+    .g-form {
+      padding: 30px;
+      border: 1px solid var(--bd-border);
+      border-radius: 9px;
+      background: #fff;
+      box-shadow: 0 15px 40px rgba(16,45,80,.06);
+    }
+
+    .g-form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 17px;
+    }
+
+    .g-field {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .g-field-full { grid-column: 1 / -1; }
+
+    .g-field label {
+      color: var(--bd-navy);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .g-field input,
+    .g-field select,
+    .g-field textarea {
+      width: 100%;
+      min-height: 47px;
+      padding: 12px;
+      border: 1px solid #dce3eb;
+      border-radius: 5px;
+      outline: none;
+      background: #fff;
+      color: var(--bd-text);
+      font-size: 14px;
+    }
+
+    .g-field textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .g-field input:focus,
+    .g-field select:focus,
+    .g-field textarea:focus {
+      border-color: var(--bd-gold);
+      box-shadow: 0 0 0 3px rgba(212,162,83,.12);
+    }
+
+    .g-form .g-button { width: 100%; margin-top: 20px; }
+
+    .g-form-message {
+      margin: 12px 0 0;
+      color: var(--bd-muted);
+      font-size: 12px;
+    }
+
+    /* Footer */
+    .g-footer {
+      padding: 45px 0 22px;
+      background: #0a2039;
+      color: rgba(255,255,255,.8);
+    }
+
+    .g-footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 25px;
+      padding-bottom: 30px;
+    }
+
+    .g-footer h3 {
+      margin: 0 0 12px;
+      color: #fff;
+      font-size: 17px;
+    }
+
+    .g-footer p,
+    .g-footer a {
+      color: rgba(255,255,255,.7);
+      font-size: 12px;
+    }
+
+    .g-footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .g-footer a:hover { color: var(--bd-gold); }
+
+    .g-footer-bottom {
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,.13);
+      color: rgba(255,255,255,.55);
+      font-size: 11px;
+    }
+
+    .g-footer-bottom a { color: var(--bd-gold); }
+
+    .g-reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity .65s ease, transform .65s ease;
+    }
+
+    .g-reveal.g-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes g-rise {
+      from { opacity: 0; transform: translateY(22px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+
+      .g-reveal { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 960px) {
+      .g-navlinks { gap: 12px; }
+      .g-navlinks > a:not(.g-button) { display: none; }
+      .g-two-col { gap: 30px; }
+      .g-card-grid { grid-template-columns: 1fr 1fr; }
+      .g-process { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 650px) {
+      .g-container { width: min(100% - 30px, 1160px); }
+      .g-section { padding: 60px 0; }
+      .g-nav { min-height: 72px; }
+      .g-brand { font-size: 16px; }
+      .g-navlinks { gap: 0; }
+      .g-navlinks > .g-button { min-height: 42px; padding: 10px 12px; font-size: 11px; }
+      .g-hero { min-height: 560px; }
+      .g-hero-content { padding: 65px 0; }
+      .g-hero h1 { font-size: 41px; }
+      .g-hero p { font-size: 15px; }
+      .g-highlight-grid { grid-template-columns: 1fr; }
+      .g-highlight { padding: 20px; }
+      .g-highlight + .g-highlight { border-top: 1px solid var(--bd-border); border-left: 0; }
+      .g-two-col, .g-form-layout { grid-template-columns: 1fr; }
+      .g-card-grid, .g-eligibility, .g-process { grid-template-columns: 1fr; }
+      .g-form { padding: 22px 18px; }
+      .g-form-grid { grid-template-columns: 1fr; }
+      .g-field-full { grid-column: auto; }
+      .g-cta { padding: 48px 22px; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="g-page">
+
+  <!-- HEADER -->
+  <header class="g-header">
+    <div class="g-container g-nav">
+      <a class="g-brand" href="/" aria-label="Big Dream Education home">
+        BIG DREAM
+        <span>EDUCATION & VISA SERVICES</span>
+      </a>
+
+      <nav class="g-navlinks" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/services/">Services</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a class="g-button" href="#consultation">Book a Consultation ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="g-hero">
+      <video class="g-hero-video" autoplay muted loop playsinline
+        poster="/assets/485-visa-hero.jpg"
+        aria-label="Background video for the Temporary Graduate visa page">
+        <source src="/services/videos/bigdream_video_under25mb.mp4" type="video/mp4">
+      </video>
+      <div class="g-hero-overlay"></div>
+
+      <div class="g-container g-hero-content">
+        <div class="g-breadcrumb">
+          <a href="/">Home</a> &nbsp; / &nbsp;
+          <a href="/services/">Services</a> &nbsp; / &nbsp;
+          Subclass 485
+        </div>
+
+        <div class="g-eyebrow">Australian Graduate Visa Guidance</div>
+
+        <h1>Your Next Chapter in Australia Starts <span>Here.</span></h1>
+
+        <p>
+          Have you recently completed your studies in Australia?
+          Understand the Temporary Graduate visa (subclass 485), explore
+          the relevant stream and prepare for your next steps with
+          guidance from Big Dream Education & Visa Services.
+        </p>
+
+        <div class="g-hero-actions">
+          <a class="g-button" href="#consultation">Discuss Your Options ↗</a>
+          <a class="g-button g-button-outline" href="#visa-streams">Explore Visa Streams ↓</a>
+        </div>
+
+        <div class="g-hero-note">
+          Eligibility depends on your qualification, visa history and individual circumstances.
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <div class="g-container g-highlights">
+      <div class="g-highlight-grid">
+        <div class="g-highlight">
+          <strong>After Your Studies</strong>
+          <span>Explore post-study visa options</span>
+        </div>
+        <div class="g-highlight">
+          <strong>Different Visa Streams</strong>
+          <span>Choose the stream relevant to your qualification</span>
+        </div>
+        <div class="g-highlight">
+          <strong>Application Preparation</strong>
+          <span>Understand the requirements before applying</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- INTRODUCTION -->
+    <section class="g-section">
+      <div class="g-container g-two-col">
+        <div class="g-copy g-reveal">
+          <div class="g-eyebrow">Understand Subclass 485</div>
+          <h2>Make an informed decision about your post-study options.</h2>
+
+          <p>
+            The Temporary Graduate visa (subclass 485) is designed for
+            eligible international students who have completed qualifying
+            studies in Australia. Depending on the stream, it can allow
+            eligible graduates to live, work and study in Australia
+            temporarily.
+          </p>
+
+          <p>
+            The right pathway depends on your completed qualification,
+            age, current visa status and other requirements. Reviewing
+            these details early can help you understand what needs to
+            be prepared for your application.
+          </p>
+
+          <ul class="g-check-list">
+            <li><span class="g-check">✓</span><span>Understand which visa stream may suit your qualification.</span></li>
+            <li><span class="g-check">✓</span><span>Review key eligibility and document requirements.</span></li>
+            <li><span class="g-check">✓</span><span>Prepare questions before making your application.</span></li>
+          </ul>
+
+          <a class="g-button" href="#consultation">Enquire About Subclass 485 ↗</a>
+        </div>
+
+        <aside class="g-side-card g-reveal">
+          <div class="g-eyebrow">Before You Apply</div>
+          <h3>Timing and eligibility matter.</h3>
+          <p>
+            Applicants generally need to meet a recent Australian study
+            requirement and have held an eligible Student visa within
+            the relevant period. Stream-specific requirements also apply.
+          </p>
+          <p>
+            Do not rely on a general checklist alone. Confirm the current
+            rules that apply to your particular situation.
+          </p>
+          <a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485"
+             target="_blank" rel="noopener noreferrer">
+            Read the official visa information ↗
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- VISA STREAMS -->
+    <section class="g-section g-section-light" id="visa-streams">
+      <div class="g-container">
+        <div class="g-center g-reveal">
+          <div class="g-eyebrow">Explore Your Options</div>
+          <h2 class="g-heading">Which subclass 485 stream may be relevant to you?</h2>
+          <p class="g-description">
+            The qualification you use to meet the study requirement helps
+            determine the stream you may be eligible to apply for.
+          </p>
+        </div>
+
+        <div class="g-card-grid">
+
+          <article class="g-card g-reveal">
+            <div class="g-card-number">01</div>
+            <h3>Post-Higher Education Work Stream</h3>
+            <p>
+              For eligible international graduates with a degree-level
+              qualification or higher from an Australian institution.
+            </p>
+            <small>For eligible degree graduates</small>
+          </article>
+
+          <article class="g-card g-reveal">
+            <div class="g-card-number">02</div>
+            <h3>Post-Vocational Education Work Stream</h3>
+            <p>
+              For eligible graduates with an associate degree, diploma
+              or trade qualification that meets the relevant occupation
+              and visa requirements.
+            </p>
+            <small>Occupation and qualification requirements apply</small>
+          </article>
+
+          <article class="g-card g-reveal">
+            <div class="g-card-number">03</div>
+            <h3>Second Post-Higher Education Work Stream</h3>
+            <p>
+              For certain eligible holders of a previous graduate visa
+              whose qualifying Australian study was completed at an
+              eligible regional institution.
+            </p>
+            <small>Additional regional and visa criteria apply</small>
+          </article>
+
+        </div>
+
+        <p style="margin:26px 0 0;text-align:center;color:#64748b;font-size:12px;">
+          Stream names and requirements should be checked against current
+          Department of Home Affairs guidance before applying.
+        </p>
+      </div>
+    </section>
+
+    <!-- ELIGIBILITY -->
+    <section class="g-section">
+      <div class="g-container">
+        <div class="g-center g-reveal">
+          <div class="g-eyebrow">Eligibility Overview</div>
+          <h2 class="g-heading">Important requirements to check</h2>
+          <p class="g-description">
+            These are general considerations, not a complete eligibility
+            assessment. The requirements can vary depending on your stream
+            and circumstances.
+          </p>
+        </div>
+
+        <div class="g-eligibility">
+
+          <div class="g-eligibility-item g-reveal">
+            <span class="g-check">✓</span>
+            <div>
+              <h3>Age requirements</h3>
+              <p>
+                The general maximum age is 35 at application. Exceptions
+                apply to certain eligible applicants.
+              </p>
+            </div>
+          </div>
+
+          <div class="g-eligibility-item g-reveal">
+            <span class="g-check">✓</span>
+            <div>
+              <h3>Eligible visa status</h3>
+              <p>
+                You must meet the relevant visa-status and location
+                requirements for your application stream.
+              </p>
+            </div>
+          </div>
+
+          <div class="g-eligibility-item g-reveal">
+            <span class="g-check">✓</span>
+            <div>
+              <h3>Recent Australian study</h3>
+              <p>
+                Your qualification and study history must meet the
+                applicable Temporary Graduate visa study requirement.
+              </p>
+            </div>
+          </div>
+
+          <div class="g-eligibility-item g-reveal">
+            <span class="g-check">✓</span>
+            <div>
+              <h3>Qualification and stream</h3>
+              <p>
+                Your qualification must meet the requirements of the
+                stream you intend to apply for.
+              </p>
+            </div>
+          </div>
+
+          <div class="g-eligibility-item g-reveal">
+            <span class="g-check">✓</span>
+            <div>
+              <h3>English and health insurance</h3>
+              <p>
+                Applicable English-language and adequate health insurance
+                evidence requirements must be checked.
+              </p>
+            </div>
+          </div>
+
+          <div class="g-eligibility-item g-reveal">
+            <span class="g-check">✓</span>
+            <div>
+              <h3>Police and supporting documents</h3>
+              <p>
+                Check the required Australian Federal Police evidence and
+                all other supporting documents for your stream.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="g-center" style="margin-top:35px;">
+          <a class="g-button"
+             href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485"
+             target="_blank" rel="noopener noreferrer">
+            Check Official Requirements ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="g-section g-section-light">
+      <div class="g-container">
+        <div class="g-center g-reveal">
+          <div class="g-eyebrow">Our Approach</div>
+          <h2 class="g-heading">A clearer way to prepare</h2>
+          <p class="g-description">
+            Understand the process and identify what needs attention
+            before submitting an application.
+          </p>
+        </div>
+
+        <div class="g-process">
+          <div class="g-process-item g-reveal">
+            <span>STEP 01</span>
+            <h3>Discuss Your Situation</h3>
+            <p>Share your study history, qualification and current visa details.</p>
+          </div>
+
+          <div class="g-process-item g-reveal">
+            <span>STEP 02</span>
+            <h3>Review the Requirements</h3>
+            <p>Identify the relevant stream and the requirements that need checking.</p>
+          </div>
+
+          <div class="g-process-item g-reveal">
+            <span>STEP 03</span>
+            <h3>Prepare Your Documents</h3>
+            <p>Organise the supporting evidence required for your circumstances.</p>
+          </div>
+
+          <div class="g-process-item g-reveal">
+            <span>STEP 04</span>
+            <h3>Understand Next Steps</h3>
+            <p>Review application preparation and any outstanding requirements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="g-section">
+      <div class="g-container">
+        <div class="g-cta g-reveal">
+          <div class="g-eyebrow">Plan Your Next Step</div>
+          <h2>Not sure which graduate visa stream fits your situation?</h2>
+          <p>
+            Start with a conversation about your qualification, study
+            history and current visa status. Get clarity on what you
+            need to check before proceeding.
+          </p>
+          <a class="g-button" href="#consultation">Make an Enquiry ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="g-section g-section-light">
+      <div class="g-container">
+        <div class="g-center g-reveal">
+          <div class="g-eyebrow">Common Questions</div>
+          <h2 class="g-heading">Subclass 485 visa FAQs</h2>
+          <p class="g-description">
+            General answers to common questions about the Temporary Graduate visa.
+          </p>
+        </div>
+
+        <div class="g-faq-list">
+
+          <details class="g-reveal">
+            <summary>What is the Temporary Graduate visa (subclass 485)?</summary>
+            <p>
+              It is a temporary Australian visa for eligible international
+              graduates. Depending on the stream, it may allow the holder
+              to live, work and study in Australia temporarily.
+            </p>
+          </details>
+
+          <details class="g-reveal">
+            <summary>Who can apply for a subclass 485 visa?</summary>
+            <p>
+              Applicants must meet the requirements of the relevant stream.
+              These may include age, eligible visa status, recent Australian
+              study, qualification, English, health insurance and character
+              requirements. Meeting one requirement alone does not guarantee eligibility.
+            </p>
+          </details>
+
+          <details class="g-reveal">
+            <summary>How long can I stay on a subclass 485 visa?</summary>
+            <p>
+              The stay period depends on the stream, qualification and
+              applicable rules. Some Post-Higher Education Work stream
+              applicants can stay for around two to three years, while
+              other streams have different periods. Check the current
+              official rules for your circumstances.
+            </p>
+          </details>
+
+          <details class="g-reveal">
+            <summary>Can I work in Australia on a subclass 485 visa?</summary>
+            <p>
+              The visa is designed to allow eligible holders to work
+              temporarily in Australia, subject to the visa grant and
+              applicable conditions.
+            </p>
+          </details>
+
+          <details class="g-reveal">
+            <summary>Do I need English-language evidence?</summary>
+            <p>
+              English-language requirements apply to relevant applicants,
+              subject to the current rules and any applicable exemptions.
+              Confirm which test, score and validity requirements apply
+              before lodging an application.
+            </p>
+          </details>
+
+          <details class="g-reveal">
+            <summary>Can I apply after my Student visa expires?</summary>
+            <p>
+              Visa status and timing are important. The rules can depend
+              on the visa you currently hold and when you held your Student
+              visa. Obtain advice on your individual situation and check
+              the official requirements promptly.
+            </p>
+          </details>
+
+          <details class="g-reveal">
+            <summary>Does a subclass 485 visa guarantee permanent residency?</summary>
+            <p>
+              No. A Temporary Graduate visa does not guarantee permanent
+              residency. Any future visa application has separate eligibility
+              criteria and must be assessed on its own merits.
+            </p>
+          </details>
+
+        </div>
+
+        <div class="g-disclaimer">
+          <strong>Important information:</strong> This page provides
+          general information only and is not legal or migration advice.
+          Australian immigration requirements can change. Eligibility,
+          visa duration and outcomes depend on individual circumstances
+          and current legislation. Verify the latest information with the
+          Department of Home Affairs. Where individual immigration
+          assistance is required, confirm that the person providing it is
+          appropriately authorised.
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSULTATION FORM -->
+    <section class="g-section" id="consultation">
+      <div class="g-container g-form-layout">
+        <div class="g-form-intro g-reveal">
+          <div class="g-eyebrow">Get In Touch</div>
+          <h2>Let's discuss your next step.</h2>
+          <p>
+            Tell us a little about your situation. Our team can use the
+            details to understand your enquiry and discuss the next steps.
+          </p>
+          <ul class="g-check-list">
+            <li><span class="g-check">✓</span><span>Share your qualification and study history.</span></li>
+            <li><span class="g-check">✓</span><span>Tell us your current visa situation.</span></li>
+            <li><span class="g-check">✓</span><span>Let us know what guidance you are looking for.</span></li>
+          </ul>
+        </div>
+
+        <form class="g-form g-reveal" id="whatsapp-consultation-form">
+          <div class="g-form-grid">
+            <div class="g-field">
+              <label for="fname">Full name *</label>
+              <input id="fname" name="fname" type="text" autocomplete="name" required>
+            </div>
+
+            <div class="g-field">
+              <label for="email">Email address *</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+
+            <div class="g-field">
+              <label for="phone">Phone number *</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            </div>
+
+            <div class="g-field">
+              <label for="help">What do you need help with? *</label>
+              <select id="help" name="help" required>
+                <option value="">Select an option</option>
+                <option>Post-Higher Education Work stream</option>
+                <option>Post-Vocational Education Work stream</option>
+                <option>Second Post-Higher Education Work stream</option>
+                <option>Not sure which stream applies</option>
+                <option>Other visa enquiry</option>
+              </select>
+            </div>
+
+            <div class="g-field g-field-full">
+              <label for="details">Tell us about your situation</label>
+              <textarea id="details" name="details"
+                placeholder="For example, your qualification, course completion date and current visa status. Please do not include passport numbers or other sensitive personal information."></textarea>
+            </div>
+          </div>
+
+          <button class="g-button" type="submit">Continue to WhatsApp ↗</button>
+          <p class="g-form-message">
+            Submitting this form opens WhatsApp with your enquiry details.
+            Your message is not sent until you confirm it in WhatsApp.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="g-footer">
+    <div class="g-container">
+      <div class="g-footer-inner">
+        <div>
+          <h3>BIG DREAM</h3>
+          <p>Education & Visa Services</p>
+          <p>Helping you understand your education and visa options.</p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <div class="g-footer-links">
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/services/">Services</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Useful Information</h3>
+          <p>
+            <a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485"
+               target="_blank" rel="noopener noreferrer">
+              Department of Home Affairs ↗
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="g-footer-bottom">
+        © <span id="g-current-year"></span> Big Dream Education & Visa Services.
+        All rights reserved.
+        <br>
+        General information only. No visa outcome is guaranteed.
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  // Reveal elements when they enter the viewport.
+  (function () {
+    const elements = document.querySelectorAll(".g-reveal");
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("g-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      elements.forEach((element) => observer.observe(element));
+    } else {
+      elements.forEach((element) => element.classList.add("g-visible"));
+    }
+  })();
+
+  // Update copyright year.
+  document.getElementById("g-current-year").textContent =
+    new Date().getFullYear();
+
+  // WhatsApp enquiry form.
+  // Replace this value with the business WhatsApp number in international
+  // format, using digits only (no +, spaces or brackets).
+  const WHATSAPP_NUMBER = "REPLACE_WITH_BUSINESS_WHATSAPP_NUMBER";
+
+  document.getElementById("whatsapp-consultation-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      if (
+        !WHATSAPP_NUMBER ||
+        WHATSAPP_NUMBER === "REPLACE_WITH_BUSINESS_WHATSAPP_NUMBER"
+      ) {
+        alert(
+          "The enquiry form needs the business WhatsApp number added first. " +
+          "Please contact the website administrator."
+        );
+        return;
+      }
+
+      const form = event.currentTarget;
+      const data = new FormData(form);
+
+      const message = [
+        "Hello Big Dream Education & Visa Services,",
+        "",
+        "I would like to enquire about the Temporary Graduate visa (subclass 485).",
+        "",
+        "Name: " + (data.get("fname") || ""),
+        "Email: " + (data.get("email") || ""),
+        "Phone: " + (data.get("phone") || ""),
+        "Enquiry: " + (data.get("help") || ""),
+        "Details: " + (data.get("details") || "Not provided")
+      ].join("\n");
+
+      const whatsappURL =
+        "https://wa.me/" + WHATSAPP_NUMBER +
+        "?text=" + encodeURIComponent(message);
+
+      window.open(whatsappURL, "_blank", "noopener,noreferrer");
+    });
+</script>
+
+<script src="/scripts.js"></script>
+</body>
+</html>
