@@ -92,60 +92,92 @@
         </div>
 
 
+
+<!-- Big Dream Visa Responsive Video Player -->
+<div class="video-wrapper">
+  <video
+    class="hero-video"
+    controls
+    playsinline
+    webkit-playsinline
+    preload="metadata"
+    aria-label="Meet your migration team"
+  >
+    <source
+      src="/services/videos/bigdream_video_under25mb.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
 <style>
+  /* Video container */
   .video-wrapper {
+    position: relative;
     width: 100%;
     max-width: 340px;
-    height: auto;
     margin: 0 auto;
-    position: relative;
+    padding: 0;
+    height: auto;
     overflow: hidden;
     border-radius: 12px;
     background: #10283f;
+    box-sizing: border-box;
   }
 
+  /* Video player */
   .hero-video {
     display: block;
     width: 100%;
     height: auto;
+    max-height: 70vh;
     aspect-ratio: 9 / 16;
     object-fit: contain;
     object-position: center;
+    border: 0;
     border-radius: 12px;
     background: #10283f;
+    box-sizing: border-box;
   }
 
-  @media (max-width: 768px) {
+  /* Tablet and mobile */
+  @media screen and (max-width: 768px) {
     .video-wrapper {
       width: 100%;
-      max-width: 260px;
+      max-width: 280px;
+      height: auto;
       margin: 0 auto 24px;
     }
 
     .hero-video {
       width: 100%;
       height: auto;
-      max-height: 55vh;
+      max-height: 60vh;
       aspect-ratio: 9 / 16;
       object-fit: contain;
     }
   }
 
+  /* iPhone and iOS Safari */
   @supports (-webkit-touch-callout: none) {
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .video-wrapper {
         width: 100%;
         max-width: 260px;
         height: auto;
+        margin: 0 auto 24px;
         overflow: hidden;
       }
 
       .hero-video {
+        display: block;
         width: 100%;
         height: auto;
         max-height: 55vh;
         aspect-ratio: 9 / 16;
         object-fit: contain;
+        object-position: center;
       }
     }
   }
