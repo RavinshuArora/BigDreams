@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,160 +14,350 @@
   <meta property="og:description" content="Explore visa, migration and education services with Big Dream Education and Visa Services in Perth.">
   <meta property="og:url" content="https://www.bigdreamvisa.com.au/services/">
 
-  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-  <link rel="stylesheet" href="/styles.css">
-  <script defer src="/scripts.js"></script>
+  <!-- Website assets -->
+  <link rel="icon" type="image/svg+xml" href="https://www.bigdreamvisa.com.au/assets/favicon.svg">
+  <link rel="stylesheet" href="https://www.bigdreamvisa.com.au/styles.css">
+  <script defer src="https://www.bigdreamvisa.com.au/scripts.js"></script>
 
   <style>
-    .services-landing { color: #172336; }
-    .services-landing *, .services-landing *::before, .services-landing *::after { box-sizing: border-box; }
+    .services-landing {
+      color: #172336;
+    }
+
+    .services-landing *,
+    .services-landing *::before,
+    .services-landing *::after {
+      box-sizing: border-box;
+    }
 
     .services-hero {
-      position: relative; overflow: hidden;
+      position: relative;
+      overflow: hidden;
       padding: clamp(65px, 9vw, 110px) 0;
       color: #fff;
       background:
         radial-gradient(circle at 82% 18%, rgba(216,178,72,.18), transparent 25%),
         linear-gradient(125deg, #0f2035, #173652 58%, #12283e);
     }
+
     .services-hero-inner {
-      position: relative; z-index: 1; max-width: 850px;
-      margin: auto; text-align: center;
+      position: relative;
+      z-index: 1;
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
     }
+
     .services-eyebrow {
-      color: #d8b248; font-size: 12px; font-weight: 800;
-      letter-spacing: .18em; text-transform: uppercase; margin: 0 0 16px;
+      color: #d8b248;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin: 0 0 16px;
     }
+
     .services-hero h1 {
-      color: #fff; font-size: clamp(34px, 5vw, 58px);
-      line-height: 1.1; letter-spacing: -.03em; margin: 0 auto 20px;
+      color: #fff;
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1.1;
+      letter-spacing: -.03em;
+      margin: 0 auto 20px;
     }
+
     .services-hero p:not(.services-eyebrow) {
-      color: #d1dce8; font-size: 16px; line-height: 1.8;
-      max-width: 680px; margin: 0 auto 28px;
+      color: #d1dce8;
+      font-size: 16px;
+      line-height: 1.8;
+      max-width: 680px;
+      margin: 0 auto 28px;
     }
+
     .services-hero-actions {
-      display: flex; justify-content: center; flex-wrap: wrap; gap: 12px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
     }
-    .services-hero .btn-gold, .services-cta .btn-gold {
-      display: inline-block; background: #d8b248; color: #12283e;
-      padding: 13px 22px; border-radius: 9px; font-weight: 750;
-      text-decoration: none; transition: background .2s ease, transform .2s ease;
+
+    .services-hero .btn-gold,
+    .services-cta .btn-gold {
+      display: inline-block;
+      background: #d8b248;
+      color: #12283e;
+      padding: 13px 22px;
+      border-radius: 9px;
+      font-weight: 750;
+      text-decoration: none;
+      transition: background .2s ease, transform .2s ease;
     }
-    .services-hero .btn-gold:hover, .services-cta .btn-gold:hover {
-      background: #e5c66d; transform: translateY(-2px);
+
+    .services-hero .btn-gold:hover,
+    .services-cta .btn-gold:hover {
+      background: #e5c66d;
+      transform: translateY(-2px);
     }
+
     .services-text-link {
-      display: inline-block; padding: 12px 18px;
-      border: 1px solid rgba(255,255,255,.3); border-radius: 9px;
-      color: #fff; text-decoration: none;
+      display: inline-block;
+      padding: 12px 18px;
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 9px;
+      color: #fff;
+      text-decoration: none;
     }
-    .services-section { padding: clamp(52px, 7vw, 85px) 0; }
-    .services-section.soft { background: #f7f8fa; }
+
+    .services-section {
+      padding: clamp(52px, 7vw, 85px) 0;
+    }
+
+    .services-section.soft {
+      background: #f7f8fa;
+    }
+
     .services-section-head {
-      max-width: 720px; margin: 0 auto 36px; text-align: center;
+      max-width: 720px;
+      margin: 0 auto 36px;
+      text-align: center;
     }
+
     .services-section-head .eyebrow {
-      color: #a87c32; font-size: 11px; font-weight: 800;
-      letter-spacing: .16em; text-transform: uppercase; margin: 0 0 10px;
+      color: #a87c32;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin: 0 0 10px;
     }
+
     .services-section-head h2 {
-      color: #172336; font-size: clamp(27px, 3.4vw, 39px);
-      line-height: 1.2; margin: 0 0 13px;
+      color: #172336;
+      font-size: clamp(27px, 3.4vw, 39px);
+      line-height: 1.2;
+      margin: 0 0 13px;
     }
-    .services-section-head p { color: #617083; line-height: 1.75; margin: 0; }
+
+    .services-section-head p {
+      color: #617083;
+      line-height: 1.75;
+      margin: 0;
+    }
+
     .services-card-grid {
-      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
     }
+
     .service-option {
-      display: flex; flex-direction: column; align-items: flex-start;
-      min-height: 270px; padding: 27px; border: 1px solid #e5e9ef;
-      border-radius: 16px; background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-height: 270px;
+      padding: 27px;
+      border: 1px solid #e5e9ef;
+      border-radius: 16px;
+      background: #fff;
       box-shadow: 0 10px 30px rgba(18,40,62,.045);
-      text-decoration: none; color: inherit;
+      text-decoration: none;
+      color: inherit;
       transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
     }
-    .service-option:hover, .service-option:focus-visible {
-      transform: translateY(-5px); border-color: #c8a23a;
+
+    .service-option:hover,
+    .service-option:focus-visible {
+      transform: translateY(-5px);
+      border-color: #c8a23a;
       box-shadow: 0 18px 38px rgba(18,40,62,.1);
     }
-    .service-option.featured { border-color: #c8a23a; }
+
+    .service-option.featured {
+      border-color: #c8a23a;
+    }
+
     .service-icon {
-      width: 48px; height: 48px; display: grid; place-items: center;
-      border-radius: 13px; color: #a87c32; background: #fbf5e7;
-      border: 1px solid #f0dfb4; margin-bottom: 20px; font-size: 25px;
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 13px;
+      color: #a87c32;
+      background: #fbf5e7;
+      border: 1px solid #f0dfb4;
+      margin-bottom: 20px;
+      font-size: 25px;
     }
+
     .service-kicker {
-      color: #a87c32; font-size: 10px; font-weight: 800;
-      letter-spacing: .12em; text-transform: uppercase; margin: 0 0 8px;
+      color: #a87c32;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin: 0 0 8px;
     }
+
     .service-option h3 {
-      color: #172336; font-size: 20px; line-height: 1.3; margin: 0 0 11px;
+      color: #172336;
+      font-size: 20px;
+      line-height: 1.3;
+      margin: 0 0 11px;
     }
+
     .service-option p:not(.service-kicker) {
-      color: #617083; font-size: 14px; line-height: 1.7; margin: 0 0 23px;
+      color: #617083;
+      font-size: 14px;
+      line-height: 1.7;
+      margin: 0 0 23px;
     }
+
     .service-link-label {
-      display: inline-flex; gap: 8px; align-items: center; margin-top: auto;
-      color: #8b6727; font-size: 13px; font-weight: 800;
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: auto;
+      color: #8b6727;
+      font-size: 13px;
+      font-weight: 800;
     }
-    .service-option:hover .service-link-label span { transform: translateX(4px); }
-    .service-link-label span { transition: transform .2s ease; }
+
+    .service-option:hover .service-link-label span {
+      transform: translateX(4px);
+    }
+
+    .service-link-label span {
+      transition: transform .2s ease;
+    }
+
     .services-note {
-      max-width: 780px; margin: 26px auto 0; text-align: center;
-      color: #617083; font-size: 12px; line-height: 1.7;
+      max-width: 780px;
+      margin: 26px auto 0;
+      text-align: center;
+      color: #617083;
+      font-size: 12px;
+      line-height: 1.7;
     }
+
     .services-process {
-      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
     }
+
     .services-process article {
-      padding: 24px; background: #fff; border: 1px solid #e5e9ef; border-radius: 14px;
+      padding: 24px;
+      background: #fff;
+      border: 1px solid #e5e9ef;
+      border-radius: 14px;
     }
+
     .services-process .number {
-      display: grid; place-items: center; width: 34px; height: 34px;
-      border-radius: 50%; color: #9b722a; border: 1px solid #d8b248;
-      font-weight: 800; margin-bottom: 15px;
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      color: #9b722a;
+      border: 1px solid #d8b248;
+      font-weight: 800;
+      margin-bottom: 15px;
     }
-    .services-process h3 { font-size: 17px; margin: 0 0 8px; color: #172336; }
-    .services-process p { font-size: 13px; line-height: 1.7; color: #617083; margin: 0; }
+
+    .services-process h3 {
+      font-size: 17px;
+      margin: 0 0 8px;
+      color: #172336;
+    }
+
+    .services-process p {
+      font-size: 13px;
+      line-height: 1.7;
+      color: #617083;
+      margin: 0;
+    }
+
     .services-cta {
-      padding: 42px 30px; border-radius: 18px; text-align: center;
-      background: #0f2035; color: #fff;
+      padding: 42px 30px;
+      border-radius: 18px;
+      text-align: center;
+      background: #0f2035;
+      color: #fff;
     }
+
     .services-cta h2 {
-      color: #fff; font-size: clamp(25px, 3vw, 34px); margin: 0 0 12px;
+      color: #fff;
+      font-size: clamp(25px, 3vw, 34px);
+      margin: 0 0 12px;
     }
+
     .services-cta p:not(.services-eyebrow) {
-      max-width: 640px; margin: 0 auto 23px; color: #d1dce8; line-height: 1.75;
+      max-width: 640px;
+      margin: 0 auto 23px;
+      color: #d1dce8;
+      line-height: 1.75;
     }
 
     @media (max-width: 900px) {
-      .services-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .services-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
     }
+
     @media (max-width: 640px) {
-      .services-card-grid, .services-process { grid-template-columns: 1fr; }
-      .service-option { min-height: 0; padding: 23px; }
-      .services-hero { padding: 58px 0; }
-      .services-cta { padding: 34px 22px; }
+      .services-card-grid,
+      .services-process {
+        grid-template-columns: 1fr;
+      }
+
+      .service-option {
+        min-height: 0;
+        padding: 23px;
+      }
+
+      .services-hero {
+        padding: 58px 0;
+      }
+
+      .services-cta {
+        padding: 34px 22px;
+      }
     }
+
     @media (prefers-reduced-motion: reduce) {
-      .service-option, .service-link-label span, .services-hero .btn-gold,
-      .services-cta .btn-gold { transition: none; }
-      .service-option:hover, .services-hero .btn-gold:hover,
-      .services-cta .btn-gold:hover { transform: none; }
+      .service-option,
+      .service-link-label span,
+      .services-hero .btn-gold,
+      .services-cta .btn-gold {
+        transition: none;
+      }
+
+      .service-option:hover,
+      .services-hero .btn-gold:hover,
+      .services-cta .btn-gold:hover {
+        transform: none;
+      }
     }
   </style>
 </head>
 
 <body data-page="services">
+
   <header class="site-header">
     <div class="container nav-shell">
+
       <a class="brand" href="/" aria-label="Big Dream Education and Visa Services home">
-        <img src="/assets/528_176logo.png" alt="Big Dream Education and Visa Services logo" width="132" height="44">
+        <img
+          src="https://www.bigdreamvisa.com.au/assets/528_176logo.png"
+          alt="Big Dream Education and Visa Services logo"
+          width="132"
+          height="44"
+        >
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
@@ -179,36 +370,56 @@
         <a href="/language/">LANGUAGECERT</a>
         <a class="btn btn-sm" href="/book-a-consultation/">Book a Consultation</a>
       </nav>
+
     </div>
   </header>
 
   <main class="services-landing">
+
     <section class="services-hero">
       <div class="container services-hero-inner">
+
         <p class="services-eyebrow">Your next step starts here</p>
+
         <h1>Explore Our Visa &amp; Migration Services</h1>
-        <p>Every journey is different. Explore our service areas and find a starting point for your plans to study, work or build a future in Australia.</p>
+
+        <p>
+          Every journey is different. Explore our service areas and find a starting point for your plans to study, work or build a future in Australia.
+        </p>
+
         <div class="services-hero-actions">
-          <a class="btn-gold" href="#service-options">Explore services <span aria-hidden="true">↘</span></a>
-          <a class="services-text-link" href="/book-a-consultation/">Book a consultation</a>
+          <a class="btn-gold" href="#service-options">
+            Explore services <span aria-hidden="true">↘</span>
+          </a>
+
+          <a class="services-text-link" href="/book-a-consultation/">
+            Book a consultation
+          </a>
         </div>
+
       </div>
     </section>
 
     <section class="services-section" id="service-options">
       <div class="container">
+
         <div class="services-section-head">
           <p class="eyebrow">Find your pathway</p>
           <h2>How can we help you?</h2>
-          <p>Choose the service area that best matches your needs. Select a card to explore the relevant page or contact us if you are unsure where to begin.</p>
+          <p>
+            Choose the service area that best matches your needs. Select a card to explore the relevant page or contact us if you are unsure where to begin.
+          </p>
         </div>
 
         <div class="services-card-grid">
+
           <a class="service-option featured" href="/services/subclass-482/">
             <div class="service-icon" aria-hidden="true">▣</div>
             <p class="service-kicker">Work in Australia</p>
             <h3>Employer Sponsored Visas</h3>
-            <p>Explore employer sponsorship pathways, including Subclass 482, and understand the eligibility and application steps relevant to your circumstances.</p>
+            <p>
+              Explore employer sponsorship pathways, including Subclass 482, and understand the eligibility and application steps relevant to your circumstances.
+            </p>
             <span class="service-link-label">Explore Subclass 482 <span aria-hidden="true">→</span></span>
           </a>
 
@@ -216,7 +427,9 @@
             <div class="service-icon" aria-hidden="true">✓</div>
             <p class="service-kicker">Skills &amp; eligibility</p>
             <h3>Temporary Graduate Visa</h3>
-            <p>Explore the Temporary Graduate visa (Subclass 485) and understand the eligibility requirements, application process and opportunities after completing your studies.</p>
+            <p>
+              Explore the Temporary Graduate visa (Subclass 485) and understand the eligibility requirements, application process and opportunities after completing your studies.
+            </p>
             <span class="service-link-label">Explore Subclass 485 <span aria-hidden="true">→</span></span>
           </a>
 
@@ -224,7 +437,9 @@
             <div class="service-icon" aria-hidden="true">⌂</div>
             <p class="service-kicker">Study in Australia</p>
             <h3>Education &amp; Student Enquiries</h3>
-            <p>Talk to our team about your education plans and the information needed to discuss your next steps.</p>
+            <p>
+              Talk to our team about your education plans and the information needed to discuss your next steps.
+            </p>
             <span class="service-link-label">Make an enquiry <span aria-hidden="true">→</span></span>
           </a>
 
@@ -232,7 +447,9 @@
             <div class="service-icon" aria-hidden="true">♧</div>
             <p class="service-kicker">Family pathways</p>
             <h3>Partner &amp; Family Visa Enquiries</h3>
-            <p>Share your circumstances with our team to discuss what information may be relevant to your enquiry.</p>
+            <p>
+              Share your circumstances with our team to discuss what information may be relevant to your enquiry.
+            </p>
             <span class="service-link-label">Make an enquiry <span aria-hidden="true">→</span></span>
           </a>
 
@@ -240,7 +457,9 @@
             <div class="service-icon" aria-hidden="true">✧</div>
             <p class="service-kicker">Plan a visit</p>
             <h3>Visitor Visa Enquiries</h3>
-            <p>Tell us about your intended visit and ask what details you may need to prepare.</p>
+            <p>
+              Tell us about your intended visit and ask what details you may need to prepare.
+            </p>
             <span class="service-link-label">Make an enquiry <span aria-hidden="true">→</span></span>
           </a>
 
@@ -248,64 +467,92 @@
             <div class="service-icon" aria-hidden="true">文</div>
             <p class="service-kicker">English language testing</p>
             <h3>LANGUAGECERT</h3>
-            <p>Visit our LANGUAGECERT page for information about English language examinations and booking.</p>
+            <p>
+              Visit our LANGUAGECERT page for information about English language examinations and booking.
+            </p>
             <span class="service-link-label">Explore LANGUAGECERT <span aria-hidden="true">→</span></span>
           </a>
+
         </div>
 
-        <p class="services-note">These service categories are starting points for enquiries. Eligibility and available options depend on individual circumstances and the requirements in force at the time. No visa outcome is guaranteed.</p>
+        <p class="services-note">
+          These service categories are starting points for enquiries. Eligibility and available options depend on individual circumstances and the requirements in force at the time. No visa outcome is guaranteed.
+        </p>
+
       </div>
     </section>
 
     <section class="services-section soft">
       <div class="container">
+
         <div class="services-section-head">
           <p class="eyebrow">A clear process</p>
           <h2>Start with a conversation</h2>
-          <p>You do not need to know every detail before getting in touch. We can begin by understanding your situation and goals.</p>
+          <p>
+            You do not need to know every detail before getting in touch. We can begin by understanding your situation and goals.
+          </p>
         </div>
 
         <div class="services-process">
+
           <article>
             <div class="number">1</div>
             <h3>Tell us about your plans</h3>
             <p>Share your goals, background and the type of help you are looking for.</p>
           </article>
+
           <article>
             <div class="number">2</div>
             <h3>Discuss relevant options</h3>
             <p>Our team can review your enquiry and explain appropriate next steps.</p>
           </article>
+
           <article>
             <div class="number">3</div>
             <h3>Understand what comes next</h3>
             <p>Get clarity on the information, documents or further advice that may be needed.</p>
           </article>
+
         </div>
       </div>
     </section>
 
     <section class="services-section">
       <div class="container">
+
         <div class="services-cta">
           <p class="services-eyebrow">Not sure where to start?</p>
           <h2>Let’s talk about your plans</h2>
-          <p>Send an enquiry and tell us a little about your situation. Our team can help you identify an appropriate starting point.</p>
+          <p>
+            Send an enquiry and tell us a little about your situation. Our team can help you identify an appropriate starting point.
+          </p>
           <a class="btn-gold" href="/book-a-consultation/">Book a consultation ↗</a>
         </div>
+
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
+
       <div class="footer-brand-block">
+
         <a class="brand brand-footer" href="/">
-          <img src="/assets/bdFinalLogo.svg" alt="Big Dream Education and Visa Services logo">
+          <img
+            src="https://www.bigdreamvisa.com.au/assets/bdFinalLogo.svg"
+            alt="Big Dream Education and Visa Services logo"
+          >
         </a>
-        <p>Big Dream Education and Visa Services offers education and migration guidance for clients in Perth and beyond.</p>
+
+        <p>
+          Big Dream Education and Visa Services offers education and migration guidance for clients in Perth and beyond.
+        </p>
+
         <div class="footer-social">
           <p class="social-handle">@bigdreamvisa</p>
+
           <div class="social-links" aria-label="Social media links">
             <a class="social-link" href="https://www.facebook.com/bigdreamvisa" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
             <a class="social-link" href="https://www.instagram.com/bigdreamvisa" target="_blank" rel="noopener noreferrer" aria-label="Instagram">◎</a>
@@ -315,6 +562,7 @@
             <a class="social-link" href="https://wa.me/61476241532" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">✆</a>
           </div>
         </div>
+
       </div>
 
       <div>
@@ -341,18 +589,34 @@
 
       <div>
         <h3>Legal</h3>
-        <p><a href="https://portal.mara.gov.au/search-the-register-of-migration-agents/" target="_blank" rel="noopener noreferrer">Registered Migration Agent</a></p>
-        <p><a href="https://www.legislation.gov.au/F2021L01856/latest/text" target="_blank" rel="noopener noreferrer">Migration Code of Conduct</a></p>
-        <p><a href="https://www.mara.gov.au/get-help-visa-subsite/FIles/consumer_guide_english.pdf" target="_blank" rel="noopener noreferrer">Migration Agent Consumer Guide</a></p>
+        <p>
+          <a href="https://portal.mara.gov.au/search-the-register-of-migration-agents/" target="_blank" rel="noopener noreferrer">
+            Registered Migration Agent
+          </a>
+        </p>
+        <p>
+          <a href="https://www.legislation.gov.au/F2021L01856/latest/text" target="_blank" rel="noopener noreferrer">
+            Migration Code of Conduct
+          </a>
+        </p>
+        <p>
+          <a href="https://www.mara.gov.au/get-help-visa-subsite/FIles/consumer_guide_english.pdf" target="_blank" rel="noopener noreferrer">
+            Migration Agent Consumer Guide
+          </a>
+        </p>
         <p><a href="/consultation-terms/">Terms and Conditions</a></p>
         <p><a href="/privacy-policy/">Privacy Policy</a></p>
         <p><a href="/website-terms-of-use/">Website Terms of Use</a></p>
       </div>
+
     </div>
 
     <div class="container footer-bottom">
-      <p>&copy; <span data-year></span> Big Dream Education and Visa Services. All rights reserved.</p>
+      <p>
+        &copy; <span data-year></span> Big Dream Education and Visa Services. All rights reserved.
+      </p>
     </div>
   </footer>
+
 </body>
 </html>
