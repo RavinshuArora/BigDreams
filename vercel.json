@@ -1,6 +1,5 @@
 {
   "trailingSlash": true,
-   "cleanUrls": true,
   "redirects": [
     {
       "source": "/index.html",
