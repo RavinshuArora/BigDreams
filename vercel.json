@@ -1,6 +1,6 @@
 {
   "trailingSlash": true,
-   "cleanUrls": true,
+  "cleanUrls": true,
   "redirects": [
     {
       "source": "/index.html",
@@ -92,10 +92,6 @@
     {
       "source": "/about/",
       "destination": "/about.html"
-    },
-    {
-      "source": "/services/",
-      "destination": "/services.html"
     },
     {
       "source": "/services/skills-assessment-support/",
