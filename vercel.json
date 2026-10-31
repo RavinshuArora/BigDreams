@@ -1,3 +1,4 @@
+
 {
   "trailingSlash": true,
   "redirects": [
@@ -93,8 +94,12 @@
       "destination": "/about.html"
     },
     {
-      "source": "/services/",
-      "destination": "/services.html"
+      "source": "/services/subclass-482/",
+      "destination": "/services/subclass-482.html"
+    },
+    {
+      "source": "/services/subclass-485/",
+      "destination": "/services/subclass-485.html"
     },
     {
       "source": "/services/skills-assessment-support/",
