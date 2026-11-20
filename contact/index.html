@@ -564,45 +564,168 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Visit Us</p>
-          <h2>Our Perth Office</h2>
-          <p>Professional consultation spaces designed to make conversations feel clear and comfortable.</p>
+    
+<style>
+  /* Perth Office Gallery - Location Map Fix */
+
+  .location-map-wrap {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    background: #eef2f6;
+  }
+
+  .location-map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .location-map-link {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 12px 22px;
+    background: #1a365d;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+  }
+
+  .location-map-link:hover {
+    background: #2c5282;
+    color: #fff;
+  }
+
+  .image-gallery .gallery-item {
+    overflow: hidden;
+  }
+
+  .image-gallery .gallery-item > a {
+    display: block;
+    position: relative;
+  }
+
+  .image-gallery .gallery-photo {
+    display: block;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+  }
+
+  .location-map-wrap iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .image-gallery .gallery-photo,
+    .location-map-wrap {
+      height: 280px;
+    }
+  }
+</style>
+
+<!-- OUR PERTH OFFICE SECTION -->
+<section class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <p class="eyebrow">Visit Us</p>
+      <h2>Our Perth Office</h2>
+      <p>
+        Professional consultation spaces designed to make
+        conversations feel clear and comfortable.
+      </p>
+    </div>
+
+    <div class="image-gallery">
+
+      <!-- OFFICE RECEPTION -->
+      <div class="gallery-item">
+
+        <img
+          src="../assets/contact-office-reception.jpg"
+          alt="Office reception at Big Dream Education and Visa Services"
+          class="gallery-photo photo-safe-center"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="gallery-caption">
+          <h4>Office Reception</h4>
+          <p>Welcoming consultation space in West Perth.</p>
         </div>
-        <div class="image-gallery">
-          <div class="gallery-item">
-                <img src="../assets/contact-office-reception.jpg" alt="Office reception visual for Big Dream Education and Visa Services" class="gallery-photo photo-safe-center" loading="lazy" decoding="async">
-            <div class="gallery-caption">
-              <h4>Office Reception</h4>
-              <p>Welcoming consultation space in West Perth.</p>
-            </div>
-          </div>
-          <div class="gallery-item">
-                <img src="../assets/contact-meeting-room.jpg" alt="Meeting room visual for Big Dream Education and Visa Services" class="gallery-photo photo-safe-center" loading="lazy" decoding="async">
-            <div class="gallery-caption">
-              <h4>Meeting Room</h4>
-              <p>Private consultations with clear and practical advice.</p>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <a href="https://maps.google.com/?q=2/3+Lawrence+Avenue,+West+Perth+WA+6005" target="_blank" rel="noreferrer" aria-label="Open Big Dream Education and Visa Services location in Google Maps">
-              <img src="../assets/perth-location.svg" alt="Illustration of the Big Dream Education and Visa Services Perth location and consultation access" class="gallery-photo photo-safe-center">
-              <div class="location-pin-badge" aria-hidden="true">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.18 7 13 7 13s7-7.82 7-13c0-3.87-3.13-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/>
-                </svg>
-              </div>
-            </a>
-            <div class="gallery-caption">
-              <h4>Easy to Reach</h4>
-              <p>Perth location with a calm, professional environment.</p>
-            </div>
-          </div>
-        </div>
+
       </div>
-    </section>
+
+
+      <!-- MEETING ROOM -->
+      <div class="gallery-item">
+
+        <img
+          src="../assets/contact-meeting-room.jpg"
+          alt="Meeting room at Big Dream Education and Visa Services"
+          class="gallery-photo photo-safe-center"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="gallery-caption">
+          <h4>Meeting Room</h4>
+          <p>Private consultations with clear and practical advice.</p>
+        </div>
+
+      </div>
+
+
+      <!-- PERTH OFFICE LOCATION - GOOGLE MAPS -->
+      <div class="gallery-item">
+
+        <div class="location-map-wrap">
+
+          <iframe
+            class="location-map"
+            src="https://www.google.com/maps?q=2%2F3%20Lawrence%20Avenue%2C%20West%20Perth%20WA%206005&output=embed"
+            title="Big Dream Education and Visa Services Perth Office Location"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+
+          <a
+            class="location-map-link"
+            href="https://maps.google.com/?q=2/3+Lawrence+Avenue,+West+Perth+WA+6005"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on Google Maps →
+          </a>
+
+        </div>
+
+        <div class="gallery-caption">
+          <h4>Easy to Reach</h4>
+          <p>
+            Visit our Perth office at 2/3 Lawrence Avenue,
+            West Perth.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
 
    
 
