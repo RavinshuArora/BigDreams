@@ -97,7 +97,6 @@
     }
 
     /* LANGUAGECERT MIGRATION ARTICLE */
-
     .migration-guide {
       padding: 45px 20px 55px;
       background: #fff;
@@ -230,30 +229,6 @@
       opacity: 0.9;
     }
 
-    @media (max-width: 600px) {
-      .language-hero {
-        padding: 55px 15px 45px;
-      }
-
-      .language-hero h1 {
-        font-size: 2rem;
-      }
-
-      .migration-guide {
-        padding: 35px 15px 45px;
-      }
-
-      .migration-guide th,
-      .migration-guide td {
-        padding: 11px 12px;
-      }
-
-      .option-card {
-        padding: 25px 18px;
-      }
-    }
-
-
     /* LANGUAGECERT ACADEMIC HERO SECTION */
     .exam-hero {
       background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%);
@@ -367,6 +342,211 @@
       background: rgba(255,255,255,0.35);
     }
 
+    /* ADDED SECTIONS: FREE PREPARATION */
+    .language-preparation {
+      padding: 35px 0 45px;
+      background: #fff;
+    }
+
+    .language-preparation .section-heading {
+      text-align: center;
+      color: #1a365d;
+      margin-bottom: 25px;
+    }
+
+    .language-preparation .section-heading h2 {
+      font-size: 1.6rem;
+      margin: 0 0 5px;
+      color: #1a365d;
+    }
+
+    .language-preparation .section-heading p {
+      font-size: 0.85rem;
+      color: #718096;
+      margin: 0;
+    }
+
+    .preparation-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 15px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .preparation-card {
+      padding: 25px 20px;
+      border-radius: 9px;
+      text-align: center;
+      color: white;
+    }
+
+    .preparation-card.blue {
+      background: #1a365d;
+    }
+
+    .preparation-card.gold {
+      background: linear-gradient(135deg, #d4a253, #b8893e);
+    }
+
+    .preparation-card svg {
+      margin-bottom: 12px;
+    }
+
+    .preparation-card h3 {
+      color: white;
+      font-size: 1rem;
+      margin: 0 0 8px;
+    }
+
+    .preparation-card p {
+      color: white;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      margin: 0 0 15px;
+    }
+
+    .preparation-card a {
+      display: inline-block;
+      background: white;
+      color: #1a365d;
+      padding: 10px 18px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .preparation-card a:hover {
+      opacity: 0.9;
+    }
+
+    /* ADDED SECTION: FIND A TEST CENTRE */
+    .test-centre-section {
+      padding: 35px 15px;
+      background: #f4f7fb;
+    }
+
+    .test-centre-heading {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .test-centre-heading h2 {
+      color: #1a365d;
+      font-size: 1.5rem;
+      margin: 0 0 5px;
+    }
+
+    .test-centre-heading p {
+      color: #718096;
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    .test-centre-card {
+      max-width: 750px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .test-centre-icon {
+      color: #d4a253;
+      margin-bottom: 12px;
+    }
+
+    .test-centre-card h3 {
+      color: #1a365d;
+      font-size: 1.1rem;
+      margin: 0 0 12px;
+    }
+
+    .test-centre-card p {
+      color: #718096;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      margin: 0 0 16px;
+    }
+
+    .test-centre-location {
+      background: #f4f7fb;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+      color: #1a365d;
+      font-size: 0.85rem;
+    }
+
+    .test-centre-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .test-centre-buttons a {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .test-centre-buttons .australia-btn {
+      background: #1a365d;
+    }
+
+    .test-centre-buttons .international-btn {
+      background: linear-gradient(135deg, #d4a253, #b8893e);
+    }
+
+    /* ADDED SECTIONS: DISCLAIMER AND REFERRAL DISCLOSURE */
+    .language-disclosures {
+      padding: 20px 15px 35px;
+      background: #fff;
+    }
+
+    .disclosure-inner {
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .disclosure-box {
+      padding: 15px 18px;
+      border-radius: 5px;
+      margin-bottom: 12px;
+      font-size: 0.78rem;
+      line-height: 1.6;
+    }
+
+    .disclosure-box h4 {
+      font-size: 0.9rem;
+      margin: 0 0 7px;
+      color: #1a365d;
+    }
+
+    .disclosure-box p {
+      margin: 0;
+      color: #64748b;
+    }
+
+    .general-disclaimer {
+      background: #f4f7fb;
+      border-left: 3px solid #1a365d;
+    }
+
+    .referral-disclosure {
+      background: #fff9f0;
+      border-left: 3px solid #d4a253;
+    }
+
     @media (max-width: 768px) {
       .exam-hero {
         padding: 60px 15px 45px;
@@ -388,6 +568,48 @@
       }
     }
 
+    @media (max-width: 600px) {
+      .language-hero {
+        padding: 55px 15px 45px;
+      }
+
+      .language-hero h1 {
+        font-size: 2rem;
+      }
+
+      .migration-guide {
+        padding: 35px 15px 45px;
+      }
+
+      .migration-guide th,
+      .migration-guide td {
+        padding: 11px 12px;
+      }
+
+      .option-card {
+        padding: 25px 18px;
+      }
+
+      .preparation-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .preparation-card {
+        padding: 25px 15px;
+      }
+
+      .test-centre-card {
+        padding: 20px 15px;
+      }
+
+      .test-centre-buttons {
+        flex-direction: column;
+      }
+
+      .test-centre-buttons a {
+        text-align: center;
+      }
+    }
   </style>
 </head>
 
@@ -435,11 +657,6 @@
         <p>Apply for language examination certification and achieve your English proficiency goals</p>
       </div>
     </section>
-
-
-  
-    
-    <!-- END NEW MIGRATION ARTICLE -->
 
     <!-- EXISTING EXAMINATION BOOKING BOX -->
     <section class="language-options">
@@ -538,14 +755,7 @@
       </div>
     </section>
 
-
-
-
-
-
-    
-    <!-- NEW MIGRATION ARTICLE: ABOVE BOOKING BOX -->
-    <!-- LANGUAGECERT ACADEMIC HERO: INSERTED ABOVE THE MIGRATION ARTICLE -->
+    <!-- LANGUAGECERT ACADEMIC HERO -->
     <section class="exam-hero">
       <div class="container">
         <h1>LANGUAGECERT Academic</h1>
@@ -583,12 +793,10 @@
           <p class="registration-detail">Centre No. 9964</p>
           <p class="registration-detail">Licence valid: 26 August 2026 to 26 August 2029</p>
 
-          <a
-            class="certificate-link"
-            href="../assets/9964 - LANGUAGECERT Online Examinations Registration Centre.pdf"
-            target="_blank"
-            rel="noopener"
-          >
+          <a class="certificate-link"
+             href="../assets/9964 - LANGUAGECERT Online Examinations Registration Centre.pdf"
+             target="_blank"
+             rel="noopener">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
               <polyline points="14 2 14 8 20 8"/>
@@ -601,9 +809,135 @@
       </div>
     </section>
 
+    <!-- ADDED SECTION 1: FREE PREPARATION -->
+    <section class="language-preparation">
+      <div class="container">
 
-    
+        <div class="section-heading">
+          <h2>Free Preparation</h2>
+          <p>Get ready for your test with official practice materials and online resources</p>
+        </div>
 
+        <div class="preparation-grid">
+
+          <div class="preparation-card blue">
+            <svg width="30" height="30" viewBox="0 0 24 24"
+                 fill="none" stroke="white" stroke-width="1.8"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 7v14"/>
+              <path d="M3 18V5a2 2 0 0 1 2-2h3a4 4 0 0 1 4 4 4 4 0 0 1 4-4h3a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2h-4a3 3 0 0 0-3 2 3 3 0 0 0-3-2H5a2 2 0 0 1-2-2Z"/>
+            </svg>
+
+            <h3>Free Official Practice Materials</h3>
+            <p>Official practice papers, writing samples and preparation resources.</p>
+
+            <a href="https://www.languagecert.org/en/preparation/practice-material/languagecert-academic"
+               target="_blank" rel="noopener">
+              Access Practice Materials
+            </a>
+          </div>
+
+          <div class="preparation-card gold">
+            <svg width="30" height="30" viewBox="0 0 24 24"
+                 fill="none" stroke="white" stroke-width="1.8"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="14" rx="2"/>
+              <path d="M8 21h8"/>
+              <path d="M12 17v4"/>
+            </svg>
+
+            <h3>Start Free Online Practice</h3>
+            <p>Exam-style questions, instant feedback, answer explanations and online practice.</p>
+
+            <a href="https://www.languagecert.org/en/preparation"
+               target="_blank" rel="noopener">
+              Start Practicing Online
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDED SECTION 2: FIND A TEST CENTRE -->
+    <section class="test-centre-section">
+      <div class="container">
+
+        <div class="test-centre-heading">
+          <h2>Find a Test Centre</h2>
+          <p>Locate LANGUAGECERT test centres near you</p>
+        </div>
+
+        <div class="test-centre-card">
+
+          <div class="test-centre-icon">
+            <svg width="35" height="35" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="1.8"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+              <circle cx="12" cy="10" r="2.5"/>
+            </svg>
+          </div>
+
+          <h3>Official Test Centre Finder</h3>
+
+          <p>
+            Use the official LANGUAGECERT test centre finder to locate available
+            test centres in Australia and internationally. Test centres and
+            availability are subject to change.
+          </p>
+
+          <div class="test-centre-location">
+            <strong>Perth / Northbridge</strong>
+            <br>
+            Currently available (subject to availability)
+          </div>
+
+          <div class="test-centre-buttons">
+            <a href="https://www.languagecert.org/en/search-exam?exam=1469D5BB3C384CF5B5520C0CF4A374B7&amp;country=1188CB4CA3D2472B8E2D98FED232149D"
+               target="_blank" rel="noopener" class="australia-btn">
+              ◎ &nbsp; Find Test Centres (Australia)
+            </a>
+
+            <a href="https://www.languagecert.org/en/search-exam"
+               target="_blank" rel="noopener" class="international-btn">
+              ◎ &nbsp; International Test Centres
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDED SECTION 3 & 4: DISCLOSURES -->
+    <section class="language-disclosures">
+      <div class="disclosure-inner">
+
+        <div class="disclosure-box general-disclaimer">
+          <h4>♧ &nbsp; General Disclaimer</h4>
+          <p>
+            Information on this page is general in nature and may change.
+            Visa applicants should check the current Department of Home Affairs
+            requirements applicable to their visa subclass and circumstances.
+            Test fees, discounts, test-centre availability and LANGUAGECERT
+            policies are subject to change.
+          </p>
+        </div>
+
+        <div class="disclosure-box referral-disclosure">
+          <h4>ⓘ &nbsp; Referral Disclosure</h4>
+          <p>
+            Big Dream Education Pty Ltd is a LANGUAGECERT referral partner
+            and may receive a referral commission when eligible tests are
+            booked using our promotional code. This does not increase the
+            test fee payable by the candidate.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MIGRATION ARTICLE -->
     <section class="migration-guide">
       <div class="guide-inner">
 
@@ -785,7 +1119,7 @@
           </p>
         </div>
 
-            <div class="guide-cta">
+        <div class="guide-cta">
           <h3>Optimise Your Migration Profile with Expert Guidance</h3>
 
           <p>
@@ -807,8 +1141,6 @@
 
       </div>
     </section>
-
-
 
     <!-- ABOUT LANGUAGECERT -->
     <section style="padding: 80px 0; background: linear-gradient(135deg, #f7f9fc 0%, #e8f0f7 100%);">
